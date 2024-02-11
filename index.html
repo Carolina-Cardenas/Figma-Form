@@ -7,60 +7,59 @@
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="./style/index.css">
-    
+    <link href="https //fonts.googleapis.com/css?family=Roboto">
 </head>
 
 <body>
-    <nav></nav>
-
     <main>
-      <section class="container">
+        <section class="container">
             <h1 class="title">Registration form</h1>
-            <h2 class="main-title">This is information about you</h2>
             <form>
-            <div class="div">
-                <label>Name</label>
-                <input type="text" name="name" required autocomplete />
-            </div>
-            <div class="div">
-                <label>surname</label>
-                <input type="text" surname="surname" required autocomplete />
-            </div>
-            <div class="div">
-                <label>Email</label>
-                <input type="email" email="mail" required autocomplete />
-            </div>
-            <div class="div">
-                <label>Password</label>
-                <input type="Password" required  />
-            </div>
-            <div class="div">
-                <label>Number</label>
-                <input type="Number" required autocomplete />
-            </div>
-            <div class="div">
-                <label>Coment</label>
-                <textarea></textarea>
-            </div>
-            <div class="div">
-                <label>Do you want to receive notifications</label>
-                <div>
-                    <input type="radio" name="notifications" required autocomplete />yes
+                <div class="input-containers">
+                    <label>Name</label>
+                    <input type="text" name="name" required autocomplete />
                 </div>
-                <div class="div">
-                    <input type="radio" name="notifications" required autocomplete />No
+                <div class="input-containers">
+                    <label>Surname</label>
+                    <input type="text" surname="surname" required autocomplete />
                 </div>
-            </div>
-            <div class="div">
-                <input type="checkbox" requiered/>
-                <label>I accept the privacy policy</label>
-            </div>
-            <div class="button">
-                <button type="submit">Submit</button>
-            </div>
-        </form>
-    </section>
-   
+                <div class="input-containers">
+                    <label>Email</label>
+                    <input type="email" email="mail" required autocomplete />
+                </div>
+                <div class="input-containers">
+                    <label>Password</label>
+                    <input type="Password" required />
+                </div>
+                <div class="input-containers">
+                    <label>Phone</label>
+                    <input type="tel" required autocomplete />
+                </div>
+                <div class="input-containers">
+                    <label>Comment</label>
+                    <textarea></textarea>
+                </div>
+                <div class="notifications">
+                    <label>Do you want to receive notifications</label>
+                    <div>
+                        <input type="radio" name="notifications" required autocomplete /> <label
+                            for="notifications">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="notifications" required autocomplete /> <label
+                            for="notifications">No</label>
+                    </div>
+                </div>
+                <div class="privacy">
+                    <input type="checkbox" required />
+                    <label>I accept the privacy policy</label>
+                </div>
+                <div class="button">
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+
     </main>
 
 

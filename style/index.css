@@ -1,41 +1,79 @@
-
-.title{
- font-size: 2rem;
- font-weight: bold;
- text-align: center;
- color: #707070; 
- text-transform: uppercase;  
+* {
+  font-family: Roboto, sans-serif; 
+  color: #161515;
+  
 }
-.container{
-    background-color: lightgray;
-    padding: 3.5rem 0;
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+ ;
+  text-transform: uppercase;
 }
-form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right:auto;
-    padding: 0 1rem;
+.container {
+  background-color: lightgray;
+  padding: 3.5rem 0;
+  margin: 50px auto;
 }
-div{
-    display: flex;
-    flex-direction: column;
-    width: 14rem;
-    margin: 0.5rem 0;
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
 }
-.div label{
-    font-size: 0.9rem;
-    margin-bottom: 0.2rem;
-    color: #696969;
+.input-containers {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  margin: 0.5rem 0;
 }
-.div input{
-    font-size: 1.1rem;
-    height: 2.2rem;
-    padding: 0.5rem;
-    border: 2px solid;
-    color: #696969;
-
+label {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
 }
+.input-containers input {
+  font-size: 1.1rem;
+  height: 2.2rem;
+  padding-left: 0.5rem;
+  border: 2px solid #696969;
+  border-radius: 5px;
+}
+.texbox {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: 0.75rem 0;
+}
+.textarea {
+  font-size: 1.1rem;
+  max-width: 100%;
+  height: 5rem;
+  max-height: 25rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  border: 2px solid #696969;
+  border-radius: 5px;
+}
+.notifications {
+  justify-content: space-around;
+  width: 20rem;
+}
+.btn{
+    border-radius: 4px;
+    border: 1px solid #bcd0e5;
+    justify-content: center;
+    color: #161515;
+    padding: 15px 25px;
+   
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    color: #161515;
+}
+.btn:hover {
+    box-shadow: 0 0 10px 0 #161515 inset, 0 0 20px 2px #161515;
+    border: 1px solid #161515;
+  }
